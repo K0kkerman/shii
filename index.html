@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Put</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <textarea id="input" placeholder="Enter text to encrypt/decrypt"></textarea>
+      <input type="text" id="encryptionKey" placeholder="Enter encryption key">
+      <button onclick="encrypt()">Encrypt</button>
+      <button onclick="decrypt()">Decrypt</button>
+      <textarea id="output" placeholder="Encrypted/Decrypted text will appear here" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
